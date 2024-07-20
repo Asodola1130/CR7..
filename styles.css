@@ -1,0 +1,142 @@
+/* Abd-aleem Sodola - 8911130 */
+
+html {
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light Blue */
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 0.5rem solid #b71c1c; /* Dark Red */
+    background: #fff;
+}
+
+header, footer {
+    background: linear-gradient(to right, #1565c0, #b71c1c); /* Blue to Red gradient */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+footer {
+    font-size: 0.8rem;
+}
+
+main, aside {
+    padding: 1rem;
+}
+
+h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #d32f2f;
+    text-align: center;
+}
+
+blockquote {
+    border-left: 5px solid #1565c0;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+q {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #d32f2f;
+    border: 2px solid #b71c1c;
+    box-shadow: 3px 3px 5px #999;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    border: 2px solid #d32f2f;
+    border-radius: 10px;
+    background-color: #e3f2fd;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #555;
+}
+
+video {
+    width: 100%;
+    border: 2px solid #d32f2f;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #1565c0;
+}
+
+li a:hover {
+    color: #b71c1c;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #d32f2f;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.float-right {
+    float: right;
+    width: 65%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+    .float-left, .float-right {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
+
